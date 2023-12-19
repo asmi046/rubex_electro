@@ -33,7 +33,7 @@ body {
 
 body {
   line-height: 1;
-  font-family: "Lato";
+  font-family: 'Roboto', sans-serif;
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -42,7 +42,7 @@ body {
 input,
 button,
 textarea {
-  font-family: "Lato";
+    font-family: 'Roboto', sans-serif;
   font-size: inherit;
 }
 
@@ -94,7 +94,6 @@ h6 {
 table {
   border-collapse: collapse;
   border-spacing: 0;
-  boder: 0;
 }
 
 table td {
@@ -112,7 +111,7 @@ body {
   color: #000;
 }
 body a {
-  font-family: "Lato";
+    font-family: 'Roboto', sans-serif;
   color: #000;
 }
 body._lock {
@@ -189,11 +188,10 @@ h4 {
   min-width: 248px;
   min-height: 37px;
   font-size: 16px;
-  font-weight: 600;
   color: #fff;
   border-radius: 18.5px;
   background: #c4041c;
-  border: 1px solid #707070;
+  border: 1px solid #c4041c;
 }
 .btn.fw {
   width: 100%;
@@ -2223,10 +2221,6 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   content: "\e903";
 }
 
-.group {
-  *zoom: 1;
-}
-
 .group:before,
 .group:after {
   display: table;
@@ -3186,7 +3180,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 .titleBlock__list-item-link {
   border-radius: 18.5px;
   background: #c4041c;
-  border: 1px solid #707070;
+  border: 1px solid #c4041c;
 }
 
 .navBlock {
@@ -3231,8 +3225,17 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 .descpBlock__list {
   margin-bottom: 67px;
 }
+
+.descpBlock__list li{
+  margin-bottom: 15px;
+}
+
 .descpBlock__list:last-child {
   margin-bottom: 0;
+}
+
+.descpBlock__list-item:hover {
+    color: #c4041c;
 }
 
 .descpBlock__list-item {
@@ -3324,7 +3327,18 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   .descpBlock {
     padding: 15px 45px 65px 45px;
   }
+
+  .wrapper-inner {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .descpBlock {
+    border-left: none;
+  }
 }
+
+
 @media (max-width: 515px) {
   .navBlock {
     padding: 35px 25px;
@@ -3347,3 +3361,4 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
     width: 100%;
   }
 }
+

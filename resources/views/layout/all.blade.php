@@ -12,7 +12,12 @@
         <link rel="icon" type="image/png" href="img/favicons/icon.svg" sizes="any">
         <link rel="shortcut icon" href="favicon.ico">
 
-        @vite(['resources/css/app.css', 'resources/js/app.js', 'public/css/style.min.css'])
+        @vite([
+            'resources/css/app.css',
+            'resources/js/app.js',
+            'public/css/style.min.css',
+            'public/scss/main.scss',
+            ])
 
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
