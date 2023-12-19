@@ -35,6 +35,7 @@
 				<li><a target="_blank" class="descpBlock__list-item" href="{{asset('electro_report/tipovoi-dogovor-o-tech-pris-ur-lits-i-ip-do15kw.docx')}}">Скачать типовой Договор о технологическом присоединении юридических лиц или индивидуальных предпринимателей до 15кВт включительно</a></li>
 				<li><a target="_blank" class="descpBlock__list-item" href="{{asset('electro_report/pasp.xlsx')}}">Скачать Паспорт услуги на технологическое присоединение к электрическим сетям</a></li>
 				<li><a target="_blank" class="descpBlock__list-item" href="{{asset('electro_report/arx.docx')}}">Скачать архив ремонтов оборудования за 2012г.</a></li>
+				<li><a target="_blank" class="descpBlock__list-item" href="{{asset('electro_report/Информация по отпуску тепловой энергии потребителям 2023г..docx')}}">Информация по отпуску тепловой энергии потребителям 2023г.</a></li>
 
 			</ul>
 

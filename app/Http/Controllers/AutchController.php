@@ -7,6 +7,6 @@ use Illuminate\Http\Request;
 class AutchController extends Controller
 {
     public function index() {
-        return view('autch');
+        return view('login');
     }
 }
